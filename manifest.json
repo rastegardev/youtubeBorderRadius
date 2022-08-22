@@ -1,0 +1,28 @@
+{
+  "name": "Youtube Border Radius",
+  "description": "Rounded and minimal YouTube thumbnails",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "assets/images/3d-youtube.png",
+    "32": "assets/images/3d-youtube.png",
+    "48": "assets/images/3d-youtube.png",
+    "128": "assets/images/3d-youtube.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["js/content.js"],
+      "css": ["css/content.css"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/images/3d-youtube.png",
+      "24": "assets/images/3d-youtube.png",
+      "32": "assets/images/3d-youtube.png"
+    },
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["tabs"]
+}

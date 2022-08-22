@@ -1,0 +1,129 @@
+img {
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+
+  box-shadow: none !important;
+  border-radius: 12px !important;
+}
+#img {
+  box-shadow: none !important;
+  border-radius: 12px !important;
+  background: transparent !important;
+}
+
+video {
+  box-shadow: none !important;
+  border-radius: 12px !important;
+}
+#video {
+  box-shadow: none !important;
+  border-radius: 12px !important;
+}
+
+.ytd-rich-item-renderer {
+  border-radius: 12px !important;
+}
+
+.ytp-fit-cover-video {
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 12px !important;
+}
+
+.ytp-ad-message-container,
+.ytp-ad-skip-button,
+.ytp-ad-preview-text,
+.ytp-ad-preview-container {
+  border-radius: 12px 0px 0px 12px !important;
+}
+
+.ytd-popup-container {
+  border-radius: 12px !important;
+}
+
+.ytd-subscribe-button-renderer,
+.ytd-button-renderer {
+  border-radius: 12px !important;
+}
+
+#owner.ytd-watch-metadata,
+#comment-teaser .ytd-watch-metadata {
+  border-radius: 12px !important;
+}
+
+#comment-teaser.ytd-watch-metadata {
+  border-radius: 12px !important;
+}
+
+#search .ytd-masthead {
+  border-radius: 12px !important;
+}
+
+.caption-window {
+  padding: 10px 20px !important;
+  border-radius: 12px !important;
+}
+
+#container.ytd-searchbox {
+  border-radius: 12px 0px 0px 12px !important;
+}
+#search-icon-legacy.ytd-searchbox {
+  border-radius: 0px 12px 12px 0px !important;
+}
+
+.ytd-thumbnail-overlay-resume-playback-renderer {
+  border-radius: 12px !important;
+}
+
+.thumbnail-underlay {
+  border-radius: 12px !important;
+}
+
+.hover-overlays {
+  border-radius: 12px !important;
+}
+
+.ytd-thumbnail,
+#thumbnail.ytd-thumbnail {
+  border-radius: 12px !important;
+}
+
+#dismissible.ytd-rich-grid-media {
+  border-radius: 12px !important;
+}
+
+#contents.ytd-rich-shelf-renderer
+  ytd-rich-item-renderer.ytd-rich-shelf-renderer {
+  border-radius: 12px !important;
+}
+
+#content.ytd-rich-item-renderer {
+  border-radius: 12px !important;
+}
+
+.thumbnail-container.ytd-notification-renderer
+  > yt-img-shadow.ytd-notification-renderer {
+  border-radius: 12px !important;
+}
+
+.yt-simple-endpoint {
+  border-radius: 12px !important;
+}
+
+#endpoint.yt-simple-endpoint.ytd-guide-entry-renderer {
+  margin: 0 5px !important;
+  border-radius: 12px !important;
+}
+
+.ytd-guide-entry-renderer {
+  margin: 0 5px !important;
+  border-radius: 12px !important;
+}
+
+ytd-engagement-panel-section-list-renderer[dialog]
+  #content.ytd-engagement-panel-section-list-renderer {
+  border-radius: 12px !important;
+}
